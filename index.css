@@ -13,7 +13,7 @@ body {
 .logo {
   width: 150px; /* Adjust the width of the logo */
   height: 150px; /* Adjust the height of the logo */
-  border-radius: 50%; /* Make the image round */
+  border-radius: 55%; /* Make the image round */
   overflow: hidden; /* Hide overflow to make round shape visible */
 }
 
@@ -24,26 +24,19 @@ body {
     font-weight: bold;
 }
 
-.lesson a {
-  color: #fff; /* Set color to white */
-  text-decoration: none;
-  background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
-  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, background-size 350ms;
-  --bg-h: 100%;
-}
+
 
 .lesson a:hover,
 .lesson a:focus-visible {
   color: #ffff; /* Set color to white on hover and focus */
   transform: translateY(-2px); /* Move the link up slightly */
-  background-size: 100% var(--bg-h); /* Expand the background gradient */
+  background-size: 50% var(--bg-h); /* Expand the background gradient */
   background-position-x: left; /* Align the gradient to the left */
 }
 
-.lesson a:active {
-  transform: translateY(2px); /* Move the link down slightly when active */
+#glow{
+  align: right;
 }
-
 
 #lson1{
     font-family: "Georgia", serif;
@@ -65,7 +58,6 @@ h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #ff7b00;
   text-shadow: 2px 2px 4px #ffdf99;
-  background: linear-gradient(to right,  #ff5722);
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
@@ -100,40 +92,31 @@ h1 {
 .lesson a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #0095f6;
+  background-color: #4b4235;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.7s ease;
 }
 
-.lesson a:hover {
-  background-color: #148eff;
-}
 
-.glow{
-  font-size: 18px;
-  letter-spacing: 2px;
+
+
+#glow {
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
   text-transform: uppercase;
-  display: inline-block;
-  text-align: center;
-  font-weight: bold;
-  padding: 0.7em 2em;
 }
 
-.glow::before{
-  transition: 0.7s all ease;
-  position: absolute;
-  top: 0;
-  left: 1%;
-  right: 50%;
-  bottom: 0;
-  opacity: 0;
-  content: '';
-  background-color: #ADD8E6;
-  z-index: -1;
+#glow:hover {
+  background-color: #ce0606;
 }
 
-.glow:hover,.glow:focus{
-  color: grey;
+#glow:active {
+  box-shadow: none;
+  top: 5px;
 }
