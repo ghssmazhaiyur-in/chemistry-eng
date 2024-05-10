@@ -127,7 +127,7 @@ const quizData = [{
         correct: "c",
     },
     {
-        question: "Which of the following is used for concentrating ore in metallurgy?",
+        question: "The following set of reactions are used in refining Zirconium",
         a: "Liquation",
         b: "Van Arkel process",
         c: "Zone refining",
