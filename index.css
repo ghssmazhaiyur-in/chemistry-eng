@@ -10,6 +10,13 @@ body {
   text-align: center; /* Center the logo horizontally */
 }
 
+#volumenames {
+  padding: 10px;
+  text-align: center;
+  color: orangered;
+  text-decoration: underline;
+}
+
 .logo {
   width: 150px; /* Adjust the width of the logo */
   height: 150px; /* Adjust the height of the logo */
@@ -54,13 +61,14 @@ body {
 
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: 2px 2px 4px #ffdf99;
+  text-shadow: 1px 1px 1px #ffffff;
   padding: 25px;
   border-radius: 20px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3  );
   position: relative;
   text-align: center;
   margin: 50px auto;
+  border-bottom: 2px Solid #ff7b00;
 }
 
 
